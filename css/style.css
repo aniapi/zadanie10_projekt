@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+#carousel {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	border: 2px solid black;
+	position: absolute;
+}
+
+.gallery {
+	width: 2000px;
+	position: absolute;
+	padding: 0;
+}
+
+.gallery li {
+	height: 300px;
+	width: 400px;
+	list-style: none;
+	float: left;
+}
+
+.gallery img {
+	width: 400px;
+	height: 300px;
+}
+
+.dots li {
+	height: 8px;
+	width: 8px;
+	margin: 3px;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+	bottom: 5px;
+	cursor: pointer;
+}
+
+.dots {
+	position: absolute;
+	bottom: 1px;
+	left: 107px;
+}
+.dots .active {
+	background-color: grey;
+}
+
+.arrow-right {
+	color: white;
+	font-size: 32px;
+	position: absolute;
+	top: 115px;
+	cursor: pointer;
+	right: 5px;
+}
+
+.arrow-left {
+	color: white;
+	font-size: 32px;
+	position: absolute;
+	top: 115px;
+	cursor: pointer;
+	left: 5px;
+}
